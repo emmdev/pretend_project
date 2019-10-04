@@ -1,0 +1,14 @@
+{
+  "name": "pretend_project2",
+  "version": "1.0.0",
+  "description": "trying out stuff with git",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Room 9, triOS Kitchener",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
