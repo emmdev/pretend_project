@@ -6,5 +6,8 @@ console.log("hi from Emmanuel");
 
 fetch('https://google.com/')
 .then(
-	(result) => console.log(result)
+	(response) => response.text()
+)
+.then(
+	(text) => console.log(text)
 );
